@@ -1,0 +1,39 @@
+.button-menu {
+    border-top-left-radius: 38px;
+    border-bottom-left-radius: 38px;
+    border-top-right-radius: 38px;
+    border-bottom-right-radius: 38px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 6px;
+    border-bottom-color: rgb(166, 138, 224);
+    border-left-color: rgb(166, 138, 224);
+    border-right-color: rgb(166, 138, 224);
+    border-top-color: rgb(166, 138, 224);
+    background-color: rgb(174, 140, 202);
+    font-size: 35px;
+    -unity-font: none;
+    -unity-text-align: middle-center;
+    width: 400px;
+    height: 70px;
+    flex-shrink: 0;
+    align-items: auto;
+    justify-content: flex-start;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.button-menu:hover {
+    border-left-color: rgb(186, 165, 229);
+    border-right-color: rgb(186, 165, 229);
+    border-top-color: rgb(186, 165, 229);
+    border-bottom-color: rgb(186, 165, 229);
+    background-color: rgb(181, 147, 209);
+    width: 420px;
+    height: 80px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out-bounce;
+    align-items: auto;
+    flex-shrink: 0;
+}

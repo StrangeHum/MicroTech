@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: 0; opacity: 1; display: flex; flex-shrink: 1; flex-direction: column-reverse;">
+        <ui:VisualElement name="image" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-shrink: 1; flex-direction: column; flex-wrap: nowrap;">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="text" style="height: 34px; width: 80px; color: rgb(255, 255, 255); -unity-text-align: upper-left; -unity-font-style: normal; -unity-text-outline-width: 0.6px; -unity-text-outline-color: rgba(0, 0, 0, 0); font-size: 20px; letter-spacing: 30px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

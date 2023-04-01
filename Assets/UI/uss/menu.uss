@@ -1,0 +1,52 @@
+.button-menu {
+    border-top-left-radius: 38px;
+    border-bottom-left-radius: 38px;
+    border-top-right-radius: 38px;
+    border-bottom-right-radius: 38px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 6px;
+    border-bottom-color: rgb(166, 138, 224);
+    border-left-color: rgb(166, 138, 224);
+    border-right-color: rgb(166, 138, 224);
+    border-top-color: rgb(166, 138, 224);
+    background-color: rgb(174, 140, 202);
+    font-size: 35px;
+    -unity-font: none;
+    -unity-text-align: middle-center;
+    width: 400px;
+    height: 70px;
+    flex-shrink: 0;
+    align-items: auto;
+    justify-content: flex-start;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    flex-grow: 0;
+}
+
+.button-menu:hover {
+    border-left-color: rgb(210, 199, 233);
+    border-right-color: rgb(210, 199, 233);
+    border-top-color: rgb(210, 199, 233);
+    border-bottom-color: rgb(210, 199, 233);
+    background-color: rgb(192, 171, 209);
+    width: 420px;
+    height: 80px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out-bounce;
+    align-items: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.lvl-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}

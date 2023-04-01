@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/menu.uss?fileID=7433441132597879392&amp;guid=f4ff5a67aca3cbd46a9fce6d95174f9b&amp;type=3#menu" />
+    <ui:VisualElement name="UI" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); align-items: center; align-self: center; flex-shrink: 0; top: 50px;">
+            <ui:Button text="Button" display-tooltip-when-elided="true" class="button-menu" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
